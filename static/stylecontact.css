@@ -1,0 +1,37 @@
+.concont{
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    margin: 12px 0px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+}
+
+#btn{
+    width: 150px;
+    padding: 12px 16px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: red;
+    cursor: pointer;
+
+
+}

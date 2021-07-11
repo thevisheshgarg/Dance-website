@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js")
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content
+        section#introsection 
+            div  Welcome to Vishesh Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+        section#missionsection 
+            h3 Our mission
+            div.card
+                p Dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/1.png", alt="loading")
+            div.card 
+                p Dance the way you like 
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/2.png", alt="loading")
+            div.card 
+                p Expert teaching 
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/3.png", alt="loading")
+        
+        section#sponsorssection 
+            h3 Our sponsors
+            div#sponsors 
+                img(src="../static/img/logo1.png", alt="sponsorimg")
+            div#sponsors 
+                img(src="../static/img/logo2.png", alt="sponsorimg")
+            div#sponsors 
+                img(src="../static/img/logo3.png", alt="sponsorimg")

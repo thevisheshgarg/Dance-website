@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Festive', cursive;
+}
+
+#navbar{
+    background-color: #e63939;
+    padding: 13px 14px;
+}
+
+#logo{
+display: flex;
+color: white;
+align-items: center;
+margin: 0px 14px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#logo img{
+
+    height: 40px;
+    filter: invert(1);
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+
+#navbar li a:hover{
+   color: black;
+   font-weight: bold;
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    align-items: center;
+    background: center / cover no-repeat url('/static/bg.jpg');
+    height: 450px;
+    background-color: red;
+   
+}
+
+#introsection div.small{
+    font-size: 2rem;
+}
+
+#sponsorssection{
+    height: 300px;
+    background-color: #e7b5b5;
+
+}
+#missionsection{
+    height: 300px;
+    
+
+}
+
+#missionsection h3{
+    text-align: center;
+    padding: 23px;
+    font-size: 2rem;
+
+}
+.card{
+    background-color: #e639396c;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0px 20px;
+    height: 185px;
+}
+.card p{
+    text-align: center;
+    margin: 12px;
+    font-size: 2rem;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img{
+    height: 100px;
+    padding: 0 146px;
+}
+#sponsorssection h3{
+    text-align: center;
+    padding: 23px;
+    font-size: 2rem;
+
+}
+#sponsors{
+    display: inline;
+    margin: 0px auto;
+    
+}
+#sponsors img{
+    height: 150px;
+    width: 180px;
+    margin: 0px 119px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}

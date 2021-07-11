@@ -1,0 +1,54 @@
+doctype html
+html
+    title  Vishesh Dance Academy
+    head
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul
+                div#logo 
+                    img(src="../static/img/logo.png", alt="logo")
+                    | VDA
+                li #[a(href = "/") Home] 
+                li #[a(href = "/") About]
+                li #[a(href = "/") Services] 
+                li #[a(href = "/") Class info]
+                li #[a(href = "/contact") Contact Us]
+
+        section#introsection 
+            div  Welcome to Vishesh Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+        section#missionsection 
+            h3 Our mission
+            div.card
+                p Dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/1.png", alt="loading")
+            div.card 
+                p Dance the way you like 
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/2.png", alt="loading")
+            div.card 
+                p Expert teaching 
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/3.png", alt="loading")
+        
+        section#sponsorssection 
+            h3 Our sponsors
+            div#sponsors 
+                img(src="../static/img/logo1.png", alt="sponsorimg")
+            div#sponsors 
+                img(src="../static/img/logo2.png", alt="sponsorimg")
+            div#sponsors 
+                img(src="../static/img/logo3.png", alt="sponsorimg")
+
+        footer#footer 
+            | Copyright © 2019 VisheshDanceAcademy.com | All rights reserved
+
+        script 
+            include ../static/index.js
